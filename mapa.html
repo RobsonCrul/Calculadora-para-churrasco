@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Churrasco</title>
+
+    <link rel="stylesheet" href="mapa.css">
+</head>
+<body>
+
+    <main>
+
+        <img class="img_background" src="./Imagens/img_churrasco.jpg" alt="imagem de churrasco">
+    
+        <section class="box">
+            <h1>Calculadora de Churrasco</h1>
+
+            <form id="form">
+                <p><label for="valorHomens">Homens: 
+                    <input type="number" id="valorHomens" min="0" max="99" step="1"  required>
+                </label></p>
+
+                <p><label for="valorMulheres">Mulheres: 
+                    <input type="number" id="valorMulheres" min="0" max="99" step="1" required>
+                </label></p>
+
+                <p><label for="valorCriancas">Crianças: 
+                    <input type="number" id="valorCriancas" min="0" max="99" step="1" required>
+                </label></p>
+
+                <input id="submit" type="submit" value="Calcular"></input>
+            </form>
+
+            <ul>
+                <li id="outResp1"></li>
+                <li id="outResp2"></li>
+                <li id="outResp3"></li>
+                <li id="outResp4"></li>
+                <li id="outResp5"></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="mapa.js"></script>
+</body>
+</html>

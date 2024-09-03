@@ -1,0 +1,1 @@
+Olá, espero que funcione no seu computador, para garantir eu compactei e descompactei e abri meu html no navegador umas 3 vezes e me certifiquei que está funcionando 100%. Qualquer coisa meu html, css e javascript está rodando perfeitamente.
